@@ -162,22 +162,22 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/cxn1bm.jpg",
+    "https://i.ibb.co/WN7PXzp6/photo-2025-04-21-03-16-06-7495600001838481432.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/33591be403ae3eaae7217.jpg",
+    "https://i.ibb.co/wNsRMCfg/photo-2025-04-21-03-07-23-7495597742685683728.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/b860df3e144c2208a7e5a.jpg",
+    "https://i.ibb.co/Zp98KZjf/photo-2025-04-21-03-12-20-7495599662536065036.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/a9d91437d795b0ae55af8.jpg",
+    "https://i.ibb.co/WN7PXzp6/photo-2025-04-21-03-16-06-7495600001838481432.jpg",
 )
 
 STATS_IMG_URL = getenv(
@@ -187,42 +187,42 @@ STATS_IMG_URL = getenv(
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://telegra.ph/file/84492c50c7a8a8d2603dc.jpg",
+    "https://i.ibb.co/MyPRGJ45/photo-2025-04-21-03-12-17-7495599525097111572.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/84492c50c7a8a8d2603dc.jpg",
+    "https://i.ibb.co/zTtfQmBn/photo-2025-04-21-03-12-13-7495599434902798356.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://telegra.ph/file/62f26ca46103beee9a0d5.jpg",
+    "https://i.ibb.co/qM29nC5h/photo-2025-04-21-03-12-09-7495599344708485136.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://telegra.ph/file/9fbc748ad0d552e403ba6.jpg",
+    "https://i.ibb.co/jkCh42c0/photo-2025-04-21-03-12-03-7495599160024891416.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://telegra.ph/file/2433c1b98d2621623ead3.jpg",
+    "https://i.ibb.co/Rkb8Q3SB/photo-2025-04-21-03-12-07-7495599258809139204.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://telegra.ph/file/38ae0f7b919a8995c7f29.jpg",
+    "https://i.ibb.co/hJxpybYr/photo-2025-04-21-03-12-01-7495599039765807112.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://telegra.ph/file/e17740f22da1fe4162e43.jpg",
+    "https://i.ibb.co/hJxpybYr/photo-2025-04-21-03-12-01-7495599039765807112.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/010c936d41e9da782780f.jpg",
+    "https://i.ibb.co/hJxpybYr/photo-2025-04-21-03-12-01-7495599039765807112.jpg",
 )
 
 
@@ -263,7 +263,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/33591be403ae3eaae7217.jpg":
+    if PING_IMG_URL != "https://i.ibb.co/hJxpybYr/photo-2025-04-21-03-12-01-7495599039765807112.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -271,7 +271,7 @@ if PING_IMG_URL:
 
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "https://telegra.ph/file/b860df3e144c2208a7e5a.jpg":
+    if PLAYLIST_IMG_URL != "https://i.ibb.co/Zp98KZjf/photo-2025-04-21-03-12-20-7495599662536065036.jpg":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -279,7 +279,7 @@ if PLAYLIST_IMG_URL:
 
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "https://telegra.ph/file/a9d91437d795b0ae55af8.jpg":
+    if GLOBAL_IMG_URL != "https://i.ibb.co/hJxpybYr/photo-2025-04-21-03-12-01-7495599039765807112.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -287,7 +287,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://telegra.ph/file/a9d91437d795b0ae55af8.jpg":
+    if STATS_IMG_URL != "https://i.ibb.co/3YLPzsGR/photo-2025-04-21-03-12-24-7495599808564953104.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -295,7 +295,7 @@ if STATS_IMG_URL:
 
 
 if TELEGRAM_AUDIO_URL:
-    if TELEGRAM_AUDIO_URL != "https://telegra.ph/file/84492c50c7a8a8d2603dc.jpg":
+    if TELEGRAM_AUDIO_URL != "https://i.ibb.co/MyPRGJ45/photo-2025-04-21-03-12-17-7495599525097111572.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_AUDIO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_AUDIO_URL url is wrong. Please ensure that it starts with https://"
@@ -303,7 +303,7 @@ if TELEGRAM_AUDIO_URL:
 
 
 if STREAM_IMG_URL:
-    if STREAM_IMG_URL != "https://telegra.ph/file/62f26ca46103beee9a0d5.jpg":
+    if STREAM_IMG_URL != "https://i.ibb.co/qM29nC5h/photo-2025-04-21-03-12-09-7495599344708485136.jpg":
         if not re.match("(?:http|https)://", STREAM_IMG_URL):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -311,7 +311,7 @@ if STREAM_IMG_URL:
 
 
 if SOUNCLOUD_IMG_URL:
-    if SOUNCLOUD_IMG_URL != "https://telegra.ph/file/9fbc748ad0d552e403ba6.jpg":
+    if SOUNCLOUD_IMG_URL != "https://i.ibb.co/jkCh42c0/photo-2025-04-21-03-12-03-7495599160024891416.jpg":
         if not re.match("(?:http|https)://", SOUNCLOUD_IMG_URL):
             print(
                 "[ERROR] - Your SOUNCLOUD_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -319,7 +319,7 @@ if SOUNCLOUD_IMG_URL:
 
 
 if YOUTUBE_IMG_URL:
-    if YOUTUBE_IMG_URL != "https://telegra.ph/file/2433c1b98d2621623ead3.jpg":
+    if YOUTUBE_IMG_URL != "https://i.ibb.co/Rkb8Q3SB/photo-2025-04-21-03-12-07-7495599258809139204.jpg":
         if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -327,7 +327,7 @@ if YOUTUBE_IMG_URL:
 
 
 if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "https://telegra.ph/file/84492c50c7a8a8d2603dc.jpg":
+    if TELEGRAM_VIDEO_URL != "https://i.ibb.co/zTtfQmBn/photo-2025-04-21-03-12-13-7495599434902798356.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
