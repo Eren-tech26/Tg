@@ -456,12 +456,12 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [
             InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏꝛᴛ", url=f"https://t.me/dynamic_supports"
+                text="sᴜᴘᴘᴏꝛᴛ", url=f"https://t.me/aethonixsupport"
             ),
         ],
         [
-            InlineKeyboardButton(text="˹ ᴄʜᴀᴛᴛɪɴɢ ˼", url=f"https://t.me/Tokyo_Og_Gang"),
-            InlineKeyboardButton(text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url=f"https://t.me/dynamic_supports"),
+            InlineKeyboardButton(text="˹ ᴄʜᴀᴛᴛɪɴɢ ˼", url=f"https://t.me/igrischatsupport"),
+            InlineKeyboardButton(text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url=f"https://t.me/aethonixsupport"),
         ],
         [
             InlineKeyboardButton(text="˹ ʙᴀᴄᴋ ˼", callback_data="about")
@@ -538,7 +538,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
 │❍ ᴘᴀɪᴅ ᴘʀᴏᴍᴏ + ʙᴏᴛ ʜᴏsᴛɪɴɢ⎚
 ╰───────────────────⦿
 ❍ ᴛɪᴍᴇ ᴡᴀsᴇᴛʀ = ʙʟᴏᴄᴋ 
-❍ ᴄᴏɴᴛᴀᴄᴛ - [ᴄʟɪᴄᴋ ғᴏʀ ᴅᴍ](t.me/OG_PETAR)**""",
+❍ ᴄᴏɴᴛᴀᴄᴛ - [ᴄʟɪᴄᴋ ғᴏʀ ᴅᴍ](t.me/eren_aethonix)**""",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 
